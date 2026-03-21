@@ -1,0 +1,25 @@
+{
+  "name": "@cvkit/cli",
+  "version": "0.1.0",
+  "description": "cvkit — Academic CV management CLI",
+  "type": "module",
+  "bin": {
+    "cvkit": "./dist/cli.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup --config tsup.config.ts --clean",
+    "dev": "tsup --config tsup.config.ts --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cvkit/ingesters": "workspace:*",
+    "@cvkit/schema": "workspace:*",
+    "@cvkit/store": "workspace:*",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "tsup": "*",
+    "typescript": "*"
+  }
+}

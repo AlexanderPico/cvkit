@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "composite": true,
+    "declarationDir": "dist"
+  },
+  "files": [
+    "src/index.ts",
+    "src/orcid/index.ts",
+    "src/semantic-scholar/index.ts",
+    "src/github/index.ts",
+    "src/linkedin-pdf/index.ts"
+  ],
+  "references": [
+    { "path": "../schema" }
+  ]
+}

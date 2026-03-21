@@ -1,0 +1,51 @@
+{
+  "name": "@cvkit/ingesters",
+  "version": "0.1.0",
+  "description": "Data ingesters for cvkit: ORCID, GitHub, Semantic Scholar, LinkedIn PDF",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./orcid": {
+      "types": "./dist/orcid/index.d.ts",
+      "import": "./dist/orcid/index.js",
+      "require": "./dist/orcid/index.cjs"
+    },
+    "./semantic-scholar": {
+      "types": "./dist/semantic-scholar/index.d.ts",
+      "import": "./dist/semantic-scholar/index.js",
+      "require": "./dist/semantic-scholar/index.cjs"
+    },
+    "./github": {
+      "types": "./dist/github/index.d.ts",
+      "import": "./dist/github/index.js",
+      "require": "./dist/github/index.cjs"
+    },
+    "./linkedin-pdf": {
+      "types": "./dist/linkedin-pdf/index.d.ts",
+      "import": "./dist/linkedin-pdf/index.js",
+      "require": "./dist/linkedin-pdf/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup --config tsup.config.ts --clean && tsc --project tsconfig.build.json",
+    "dev": "tsup --config tsup.config.ts --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cvkit/schema": "workspace:*",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.4",
+    "tsup": "*",
+    "typescript": "*"
+  }
+}

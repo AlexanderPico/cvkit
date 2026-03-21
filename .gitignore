@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.changeset/*.md
+!.changeset/README.md
+.env
+.env.local
+*.log
+coverage/
