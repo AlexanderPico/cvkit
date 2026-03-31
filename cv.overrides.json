@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Alexander R. Pico",
+    "label": "Biomedical Researcher & Bioinformatician",
+    "email": "alex.pico@gladstone.ucsf.edu",
+    "url": "https://gladstone.org/people/alexander-pico",
+    "summary": "Faculty bioinformatician at the Gladstone Institutes with expertise in network biology, pathway analysis, and open-source scientific software. Developer of Cytoscape apps and WikiPathways tools used across the biomedical research community.",
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "countryCode": "US"
+    },
+    "orcidId": "0000-0001-5944-9960",
+    "profiles": [
+      {
+        "network": "ORCID",
+        "username": "0000-0001-5944-9960",
+        "url": "https://orcid.org/0000-0001-5944-9960"
+      },
+      {
+        "network": "GitHub",
+        "username": "AlexanderPico",
+        "url": "https://github.com/AlexanderPico"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Gladstone Institutes",
+      "position": "Director of Bioinformatics",
+      "url": "https://gladstone.org",
+      "startDate": "2007",
+      "summary": "Lead bioinformatics infrastructure and collaborative research projects at a premier biomedical research institute affiliated with UCSF.",
+      "highlights": [
+        "Develop and maintain open-source bioinformatics tools for network biology",
+        "Collaborate with experimental labs on multi-omics data analysis",
+        "Mentor graduate students and postdoctoral researchers"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, San Francisco",
+      "area": "Biomedical Sciences",
+      "studyType": "PhD",
+      "startDate": "1998",
+      "endDate": "2004"
+    },
+    {
+      "institution": "University of North Carolina at Chapel Hill",
+      "area": "Biology",
+      "studyType": "BS",
+      "startDate": "1993",
+      "endDate": "1997"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bioinformatics",
+      "level": "Expert",
+      "keywords": ["Network Biology", "Pathway Analysis", "Multi-omics", "WikiPathways"]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": ["R", "Python", "JavaScript", "TypeScript", "Java"]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "Expert",
+      "keywords": ["Cytoscape", "RCy3", "py4cytoscape", "Bioconductor", "GitHub Actions"]
+    }
+  ]
+}

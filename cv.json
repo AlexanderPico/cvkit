@@ -1,0 +1,949 @@
+{
+  "$schema": "https://github.com/AlexanderPico/cvkit/blob/main/packages/schema/src/index.ts@0.1.0",
+  "basics": {
+    "name": ""
+  },
+  "publications": [
+    {
+      "title": "Genetic regulators of neuronal survival across metabolic environments",
+      "type": "journal-article",
+      "authors": [
+        {
+          "name": "Neal K. Bennett",
+          "s2AuthorId": "2260653849"
+        },
+        {
+          "name": "Yanilka Soto-Muniz",
+          "s2AuthorId": "2326167428"
+        },
+        {
+          "name": "Jonathan X. Meng",
+          "s2AuthorId": "2153309381"
+        },
+        {
+          "name": "Megan Lee",
+          "s2AuthorId": "2260835688"
+        },
+        {
+          "name": "Joyce Yang",
+          "s2AuthorId": "2197468433"
+        },
+        {
+          "name": "W. Flanigan",
+          "s2AuthorId": "1913128268"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        },
+        {
+          "name": "Isha H. Jain",
+          "s2AuthorId": "2250542063"
+        },
+        {
+          "name": "Ken Nakamura",
+          "s2AuthorId": "2244670596"
+        }
+      ],
+      "authorsStr": "Neal K. Bennett, Yanilka Soto-Muniz, Jonathan X. Meng, Megan Lee, Joyce Yang, W. Flanigan, Alexander R. Pico, Isha H. Jain, Ken Nakamura",
+      "publisher": "bioRxiv",
+      "releaseDate": "2025-12-19",
+      "year": 2025,
+      "doi": "10.64898/2025.12.19.695350",
+      "pmid": "41659455",
+      "s2PaperId": "432b199e0df3ee475dc1e5d2a79909fbe2bdd574",
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccess": false,
+      "url": "",
+      "abstract": "Cellular energy metabolism and oxygen availability shape neuronal function and vulnerability, yet the genetic regulators of these metabolic processes in human neurons remain incompletely understood. Here, we performed CRISPR interference (CRISPRi) screens in human induced pluripotent stem cell (iPSC)-derived neurons across four distinct metabolic conditions and at three physiologically relevant oxygen tensions. This combinatorial approach enabled systematic interrogation of gene-environment interactions that govern neuronal metabolic adaptation. We identified genes—including genes associated with Leigh syndrome and autism spectrum disorder—whose importance for cell survival is highly sensitive to environmental context, revealing potential mechanisms underlying metabolic specification and selective neuronal vulnerability in neurological disorders. Our screens also uncovered regulators of neuronal glycolysis, including KIAA1429 and MAPT among others, which are previously uncharacterized modulators of neuronal glucose utilization and metabolic flexibility. Our work nominates candidate metabolic interventions and gene targets for enhancing neuronal resilience under hypoxic or nutrient-limited conditions."
+    },
+    {
+      "title": "Fibrin drives thromboinflammation and neuropathology in COVID-19",
+      "type": "journal-article",
+      "authors": [
+        {
+          "name": "Jae-Kyu Ryu",
+          "s2AuthorId": "2142522597"
+        },
+        {
+          "name": "Zhaoqi Yan",
+          "s2AuthorId": "2296757810"
+        },
+        {
+          "name": "Mauricio Montano",
+          "s2AuthorId": "2250614235"
+        },
+        {
+          "name": "Elif G. Sozmen",
+          "s2AuthorId": "6292310"
+        },
+        {
+          "name": "Karuna Dixit",
+          "s2AuthorId": "2244628280"
+        },
+        {
+          "name": "Rahul K. Suryawanshi",
+          "s2AuthorId": "2318553412"
+        },
+        {
+          "name": "Yusuke Matsui",
+          "s2AuthorId": "2318552077"
+        },
+        {
+          "name": "Ekram Helmy",
+          "s2AuthorId": "2299090425"
+        },
+        {
+          "name": "Prashant Kaushal",
+          "s2AuthorId": "2301455625"
+        },
+        {
+          "name": "Sara K. Makanani",
+          "s2AuthorId": "2255308612"
+        },
+        {
+          "name": "T. Deerinck",
+          "s2AuthorId": "2350772"
+        },
+        {
+          "name": "A. Meyer‐Franke",
+          "s2AuthorId": "1403139165"
+        },
+        {
+          "name": "Pamela E. Rios Coronado",
+          "s2AuthorId": "2271412414"
+        },
+        {
+          "name": "Troy N. Trevino",
+          "s2AuthorId": "2318549785"
+        },
+        {
+          "name": "Min-Gyoung Shin",
+          "s2AuthorId": "2279193195"
+        },
+        {
+          "name": "Reshmi Tognatta",
+          "s2AuthorId": "6744397"
+        },
+        {
+          "name": "Yixin Liu",
+          "s2AuthorId": "2143076557"
+        },
+        {
+          "name": "Renaud Schuck",
+          "s2AuthorId": "37808999"
+        },
+        {
+          "name": "Luc Le",
+          "s2AuthorId": "2056343291"
+        },
+        {
+          "name": "Hisao Miyajima",
+          "s2AuthorId": "145153792"
+        },
+        {
+          "name": "Andrew S. Mendiola",
+          "s2AuthorId": "4357295"
+        },
+        {
+          "name": "Nikhita Arun",
+          "s2AuthorId": "2219769409"
+        },
+        {
+          "name": "Brandon Guo",
+          "s2AuthorId": "1576144980"
+        },
+        {
+          "name": "T. Y. Taha",
+          "s2AuthorId": "50097521"
+        },
+        {
+          "name": "Ayushi Agrawal",
+          "s2AuthorId": "2176872865"
+        },
+        {
+          "name": "Eilidh A MacDonald",
+          "s2AuthorId": "2062811043"
+        },
+        {
+          "name": "Oliver Aries",
+          "s2AuthorId": "2318550457"
+        },
+        {
+          "name": "Aaron Yan",
+          "s2AuthorId": "2318503786"
+        },
+        {
+          "name": "Olivia Weaver",
+          "s2AuthorId": "2312713881"
+        },
+        {
+          "name": "Mark A. Petersen",
+          "s2AuthorId": "2112255504"
+        },
+        {
+          "name": "Rosa Meza Acevedo",
+          "s2AuthorId": "2318556899"
+        },
+        {
+          "name": "M. D. P. Alzamora",
+          "s2AuthorId": "4507856"
+        },
+        {
+          "name": "R. Thomas",
+          "s2AuthorId": "2155788964"
+        },
+        {
+          "name": "Michela Traglia",
+          "s2AuthorId": "2266460776"
+        },
+        {
+          "name": "V. Kouznetsova",
+          "s2AuthorId": "3255554"
+        },
+        {
+          "name": "Igor F. Tsigelny",
+          "s2AuthorId": "2251622008"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        },
+        {
+          "name": "Kristy Red‐Horse",
+          "s2AuthorId": "1398929468"
+        },
+        {
+          "name": "M. Ellisman",
+          "s2AuthorId": "2252698830"
+        },
+        {
+          "name": "N. Krogan",
+          "s2AuthorId": "120064341"
+        },
+        {
+          "name": "Mehdi Bouhaddou",
+          "s2AuthorId": "7170473"
+        },
+        {
+          "name": "Melanie Ott",
+          "s2AuthorId": "2242905036"
+        },
+        {
+          "name": "W. Greene",
+          "s2AuthorId": "2066258334"
+        },
+        {
+          "name": "K. Akassoglou",
+          "s2AuthorId": "2261313600"
+        }
+      ],
+      "authorsStr": "Jae-Kyu Ryu, Zhaoqi Yan, Mauricio Montano, Elif G. Sozmen, Karuna Dixit, Rahul K. Suryawanshi, Yusuke Matsui, Ekram Helmy, Prashant Kaushal, Sara K. Makanani, T. Deerinck, A. Meyer‐Franke, Pamela E. Rios Coronado, Troy N. Trevino, Min-Gyoung Shin, Reshmi Tognatta, Yixin Liu, Renaud Schuck, Luc Le, Hisao Miyajima, Andrew S. Mendiola, Nikhita Arun, Brandon Guo, T. Y. Taha, Ayushi Agrawal, Eilidh A MacDonald, Oliver Aries, Aaron Yan, Olivia Weaver, Mark A. Petersen, Rosa Meza Acevedo, M. D. P. Alzamora, R. Thomas, Michela Traglia, V. Kouznetsova, Igor F. Tsigelny, Alexander R. Pico, Kristy Red‐Horse, M. Ellisman, N. Krogan, Mehdi Bouhaddou, Melanie Ott, W. Greene, K. Akassoglou",
+      "publisher": "Nature",
+      "releaseDate": "2024-08-28",
+      "year": 2024,
+      "doi": "10.1038/s41586-024-07873-4",
+      "pmid": "39198643",
+      "s2PaperId": "397cae4e4c097b1cae9a741095fb64718e3e2450",
+      "citationCount": 68,
+      "influentialCitationCount": 2,
+      "openAccess": true,
+      "url": "https://doi.org/10.1038/s41586-024-07873-4",
+      "abstract": "Life-threatening thrombotic events and neurological symptoms are prevalent in COVID-19 and are persistent in patients with long COVID experiencing post-acute sequelae of SARS-CoV-2 infection1–4. Despite the clinical evidence1,5–7, the underlying mechanisms of coagulopathy in COVID-19 and its consequences in inflammation and neuropathology remain poorly understood and treatment options are insufficient. Fibrinogen, the central structural component of blood clots, is abundantly deposited in the lungs and brains of patients with COVID-19, correlates with disease severity and is a predictive biomarker for post-COVID-19 cognitive deficits1,5,8–10. Here we show that fibrin binds to the SARS-CoV-2 spike protein, forming proinflammatory blood clots that drive systemic thromboinflammation and neuropathology in COVID-19. Fibrin, acting through its inflammatory domain, is required for oxidative stress and macrophage activation in the lungs, whereas it suppresses natural killer cells, after SARS-CoV-2 infection. Fibrin promotes neuroinflammation and neuronal loss after infection, as well as innate immune activation in the brain and lungs independently of active infection. A monoclonal antibody targeting the inflammatory fibrin domain provides protection from microglial activation and neuronal injury, as well as from thromboinflammation in the lung after infection. Thus, fibrin drives inflammation and neuropathology in SARS-CoV-2 infection, and fibrin-targeting immunotherapy may represent a therapeutic intervention for patients with acute COVID-19 and long COVID. Fibrin drives inflammation and neuropathology in SARS-CoV-2 infection, and fibrin-targeting immunotherapy may represent a therapeutic intervention for patients with long COVID.",
+      "volume": "633",
+      "pages": "905 - 913"
+    },
+    {
+      "title": "In vivo protein turnover rates in varying oxygen tensions nominate MYBBP1A as a mediator of the hyperoxia response",
+      "type": "journal-article",
+      "authors": [
+        {
+          "name": "Xue Chen",
+          "s2AuthorId": "2382514297"
+        },
+        {
+          "name": "Augustinus G. Haribowo",
+          "s2AuthorId": "2211102184"
+        },
+        {
+          "name": "Alan H. Baik",
+          "s2AuthorId": "2273300816"
+        },
+        {
+          "name": "A. Fossati",
+          "s2AuthorId": "1687733740"
+        },
+        {
+          "name": "Erica Stevenson",
+          "s2AuthorId": "66352289"
+        },
+        {
+          "name": "Yiwen R. Chen",
+          "s2AuthorId": "2109274648"
+        },
+        {
+          "name": "Nabora S. Reyes",
+          "s2AuthorId": "2252131380"
+        },
+        {
+          "name": "Tien Peng",
+          "s2AuthorId": "40594552"
+        },
+        {
+          "name": "M. Matthay",
+          "s2AuthorId": "2257683159"
+        },
+        {
+          "name": "Michela Traglia",
+          "s2AuthorId": "2266460776"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        },
+        {
+          "name": "Daniel F Jarosz",
+          "s2AuthorId": "2273300001"
+        },
+        {
+          "name": "A. Buchwalter",
+          "s2AuthorId": "12276728"
+        },
+        {
+          "name": "Sina Ghaemmaghami",
+          "s2AuthorId": "2316583"
+        },
+        {
+          "name": "D. Swaney",
+          "s2AuthorId": "5693855"
+        },
+        {
+          "name": "Isha H. Jain",
+          "s2AuthorId": "2250542063"
+        }
+      ],
+      "authorsStr": "Xue Chen, Augustinus G. Haribowo, Alan H. Baik, A. Fossati, Erica Stevenson, Yiwen R. Chen, Nabora S. Reyes, Tien Peng, M. Matthay, Michela Traglia, Alexander R. Pico, Daniel F Jarosz, A. Buchwalter, Sina Ghaemmaghami, D. Swaney, Isha H. Jain",
+      "publisher": "Science Advances",
+      "releaseDate": "2023-12-08",
+      "year": 2023,
+      "doi": "10.1126/sciadv.adj4884",
+      "pmid": "38064566",
+      "s2PaperId": "4cf08bdfe49760f8d29947203e54c767146b1ded",
+      "citationCount": 4,
+      "influentialCitationCount": 0,
+      "openAccess": true,
+      "url": "https://www.science.org/doi/pdf/10.1126/sciadv.adj4884?download=true",
+      "abstract": "Oxygen deprivation and excess are both toxic. Thus, the body’s ability to adapt to varying oxygen tensions is critical for survival. While the hypoxia transcriptional response has been well studied, the post-translational effects of oxygen have been underexplored. In this study, we systematically investigate protein turnover rates in mouse heart, lung, and brain under different inhaled oxygen tensions. We find that the lung proteome is the most responsive to varying oxygen tensions. In particular, several extracellular matrix (ECM) proteins are stabilized in the lung under both hypoxia and hyperoxia. Furthermore, we show that complex 1 of the electron transport chain is destabilized in hyperoxia, in accordance with the exacerbation of associated disease models by hyperoxia and rescue by hypoxia. Moreover, we nominate MYBBP1A as a hyperoxia transcriptional regulator, particularly in the context of rRNA homeostasis. Overall, our study highlights the importance of varying oxygen tensions on protein turnover rates and identifies tissue-specific mediators of oxygen-dependent responses.",
+      "volume": "9"
+    },
+    {
+      "title": "Using Published Pathway Figures in Enrichment Analysis and Machine Learning",
+      "type": "other",
+      "authors": [
+        {
+          "name": "Min-Gyoung Shin",
+          "s2AuthorId": "3638782"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        }
+      ],
+      "authorsStr": "Min-Gyoung Shin, Alexander R. Pico",
+      "publisher": "bioRxiv",
+      "releaseDate": "2023-07-12",
+      "year": 2023,
+      "doi": "10.1101/2023.07.06.548037",
+      "pmid": "37461614",
+      "s2PaperId": "5b0baf24a3463ec6d0b03ba1b6f909eee24fba99",
+      "citationCount": 0,
+      "influentialCitationCount": 0,
+      "openAccess": true,
+      "url": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-023-09816-1",
+      "abstract": "Pathway Figure OCR (PFOCR) is a novel kind of pathway database approaching the breadth and depth of Gene Ontology while providing rich, mechanistic diagrams and direct literature support. PFOCR content is extracted from published pathway figures currently emerging at a rate of 1000 new pathways each month. Here, we compare the pathway information contained in PFOCR against popular pathway databases with respect to overall and disease-specific coverage. In addition to common pathways analysis use cases, we present two advanced case studies demonstrating unique advantages of PFOCR in terms of cancer subtype and grade prediction analyses."
+    },
+    {
+      "title": "BioThings Explorer: a query engine for a federated knowledge graph of biomedical APIs",
+      "type": "journal-article",
+      "authors": [
+        {
+          "name": "J. Callaghan",
+          "s2AuthorId": "2237812468"
+        },
+        {
+          "name": "Colleen H. Xu",
+          "s2AuthorId": "2142297059"
+        },
+        {
+          "name": "Jiwen Xin",
+          "s2AuthorId": "3691987"
+        },
+        {
+          "name": "M. Cano",
+          "s2AuthorId": "101105515"
+        },
+        {
+          "name": "Anders Riutta",
+          "s2AuthorId": "36938299"
+        },
+        {
+          "name": "Eric Zhou",
+          "s2AuthorId": "32359083"
+        },
+        {
+          "name": "Rohan Juneja",
+          "s2AuthorId": "2239653969"
+        },
+        {
+          "name": "Yao Yao",
+          "s2AuthorId": "2142037479"
+        },
+        {
+          "name": "Madhumita Narayan",
+          "s2AuthorId": "2214710737"
+        },
+        {
+          "name": "K. Hanspers",
+          "s2AuthorId": "2049622"
+        },
+        {
+          "name": "Ayushi Agrawal",
+          "s2AuthorId": "2176872865"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        },
+        {
+          "name": "C. Wu",
+          "s2AuthorId": "48251724"
+        },
+        {
+          "name": "Andrew I. Su",
+          "s2AuthorId": "2239654397"
+        }
+      ],
+      "authorsStr": "J. Callaghan, Colleen H. Xu, Jiwen Xin, M. Cano, Anders Riutta, Eric Zhou, Rohan Juneja, Yao Yao, Madhumita Narayan, K. Hanspers, Ayushi Agrawal, Alexander R. Pico, C. Wu, Andrew I. Su",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2023-09-01",
+      "year": 2023,
+      "doi": "10.1093/bioinformatics/btad570",
+      "pmid": "37707514",
+      "s2PaperId": "8f43d5086905a3c8d876b93fe6919b5dc674616d",
+      "citationCount": 1,
+      "influentialCitationCount": 0,
+      "openAccess": true,
+      "url": "https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad570/51553552/btad570.pdf",
+      "abstract": "Abstract Summary Knowledge graphs are an increasingly common data structure for representing biomedical information. These knowledge graphs can easily represent heterogeneous types of information, and many algorithms and tools exist for querying and analyzing graphs. Biomedical knowledge graphs have been used in a variety of applications, including drug repurposing, identification of drug targets, prediction of drug side effects, and clinical decision support. Typically, knowledge graphs are constructed by centralization and integration of data from multiple disparate sources. Here, we describe BioThings Explorer, an application that can query a virtual, federated knowledge graph derived from the aggregated information in a network of biomedical web services. BioThings Explorer leverages semantically precise annotations of the inputs and outputs for each resource, and automates the chaining of web service calls to execute multi-step graph queries. Because there is no large, centralized knowledge graph to maintain, BioThings Explorer is distributed as a lightweight application that dynamically retrieves information at query time. Availability and implementation More information can be found at https://explorer.biothings.io and code is available at https://github.com/biothings/biothings_explorer.",
+      "volume": "39"
+    },
+    {
+      "title": "WikiPathways 2024: next generation pathway database",
+      "type": "journal-article",
+      "authors": [
+        {
+          "name": "Ayushi Agrawal",
+          "s2AuthorId": "2176872865"
+        },
+        {
+          "name": "Hasan Balci",
+          "s2AuthorId": "2265739345"
+        },
+        {
+          "name": "K. Hanspers",
+          "s2AuthorId": "2049622"
+        },
+        {
+          "name": "S. Coort",
+          "s2AuthorId": "3005621"
+        },
+        {
+          "name": "Marvin Martens",
+          "s2AuthorId": "40075218"
+        },
+        {
+          "name": "D. Slenter",
+          "s2AuthorId": "6173060"
+        },
+        {
+          "name": "F. Ehrhart",
+          "s2AuthorId": "47738847"
+        },
+        {
+          "name": "Daniela Digles",
+          "s2AuthorId": "2659890"
+        },
+        {
+          "name": "A. Waagmeester",
+          "s2AuthorId": "48709451"
+        },
+        {
+          "name": "Isabel Wassink",
+          "s2AuthorId": "2265738916"
+        },
+        {
+          "name": "Tooba Abbassi-Daloii",
+          "s2AuthorId": "1435635363"
+        },
+        {
+          "name": "E. N. Lopes",
+          "s2AuthorId": "2069256701"
+        },
+        {
+          "name": "Aishwarya Iyer",
+          "s2AuthorId": "2265739671"
+        },
+        {
+          "name": "J. M. Acosta",
+          "s2AuthorId": "2379884357"
+        },
+        {
+          "name": "Lars G. Willighagen",
+          "s2AuthorId": "71784632"
+        },
+        {
+          "name": "Kozo Nishida",
+          "s2AuthorId": "2281449408"
+        },
+        {
+          "name": "Anders Riutta",
+          "s2AuthorId": "36938299"
+        },
+        {
+          "name": "Helena Basaric",
+          "s2AuthorId": "2265738612"
+        },
+        {
+          "name": "C. Evelo",
+          "s2AuthorId": "2185817"
+        },
+        {
+          "name": "E. Willighagen",
+          "s2AuthorId": "2139795690"
+        },
+        {
+          "name": "M. Kutmon",
+          "s2AuthorId": "46794602"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        }
+      ],
+      "authorsStr": "Ayushi Agrawal, Hasan Balci, K. Hanspers, S. Coort, Marvin Martens, D. Slenter, F. Ehrhart, Daniela Digles, A. Waagmeester, Isabel Wassink, Tooba Abbassi-Daloii, E. N. Lopes, Aishwarya Iyer, J. M. Acosta, Lars G. Willighagen, Kozo Nishida, Anders Riutta, Helena Basaric, C. Evelo, E. Willighagen, M. Kutmon, Alexander R. Pico",
+      "publisher": "Nucleic Acids Research",
+      "releaseDate": "2023-11-06",
+      "year": 2023,
+      "doi": "10.1093/nar/gkad960",
+      "pmid": "37941138",
+      "s2PaperId": "a22d9951a18b735c8e8355c56c2b2a90b197607a",
+      "citationCount": 280,
+      "influentialCitationCount": 15,
+      "openAccess": true,
+      "url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkad960/52947360/gkad960.pdf",
+      "abstract": "Abstract WikiPathways (wikipathways.org) is an open-source biological pathway database. Collaboration and open science are pivotal to the success of WikiPathways. Here we highlight the continuing efforts supporting WikiPathways, content growth and collaboration among pathway researchers. As an evolving database, there is a growing need for WikiPathways to address and overcome technical challenges. In this direction, WikiPathways has undergone major restructuring, enabling a renewed approach for sharing and curating pathway knowledge, thus providing stability for the future of community pathway curation. The website has been redesigned to improve and enhance user experience. This next generation of WikiPathways continues to support existing features while improving maintainability of the database and facilitating community input by providing new functionality and leveraging automation.",
+      "volume": "52",
+      "pages": "D679 - D689"
+    },
+    {
+      "title": "bridgedb/BridgeDb: BridgeDb 2.3.10",
+      "type": "other",
+      "authors": [
+        {
+          "name": "Christian Y. A. Brenninkmeijer",
+          "s2AuthorId": "40201134"
+        },
+        {
+          "name": "E. Willighagen",
+          "s2AuthorId": "2139795690"
+        },
+        {
+          "name": "Manasi Awasthi",
+          "s2AuthorId": "2227001534"
+        },
+        {
+          "name": "S. Soiland-Reyes",
+          "s2AuthorId": "1399487720"
+        },
+        {
+          "name": "Anders Riutta",
+          "s2AuthorId": "36938299"
+        },
+        {
+          "name": "Alexander R. Pico",
+          "s2AuthorId": "2148817073"
+        },
+        {
+          "name": "I. Dunlop",
+          "s2AuthorId": "143692826"
+        },
+        {
+          "name": "nunogit",
+          "s2AuthorId": "2006450184"
+        },
+        {
+          "name": "R. Kerber",
+          "s2AuthorId": "35584723"
+        },
+        {
+          "name": "myGrid Jenkins build server",
+          "s2AuthorId": "2148830657"
+        },
+        {
+          "name": "A. Gray",
+          "s2AuthorId": "34071005"
+        },
+        {
+          "name": "Marvin Martens",
+          "s2AuthorId": "40075218"
+        },
+        {
+          "name": "JonathanMELIUS",
+          "s2AuthorId": "134237093"
+        },
+        {
+          "name": "Martina Summer-Kutmon",
+          "s2AuthorId": "1452889777"
+        },
+        {
+          "name": "F. Ehrhart",
+          "s2AuthorId": "47738847"
+        }
+      ],
+      "authorsStr": "Christian Y. A. Brenninkmeijer, E. Willighagen, Manasi Awasthi, S. Soiland-Reyes, Anders Riutta, Alexander R. Pico, I. Dunlop, nunogit, R. Kerber, myGrid Jenkins build server, A. Gray, Marvin Martens, JonathanMELIUS, Martina Summer-Kutmon, F. Ehrhart",
+      "publisher": "",
+      "releaseDate": "2020-10-18",
+      "year": 2020,
+      "doi": "10.5281/zenodo.4103358",
+      "s2PaperId": "c6514fc2153047d910048721e4855ed30ce55569",
+      "citationCount": 1,
+      "influentialCitationCount": 1,
+      "openAccess": false,
+      "url": "",
+      "abstract": null,
+      "volume": ""
+    }
+  ],
+  "grants": [],
+  "software": [
+    {
+      "name": "bridgedb-app",
+      "description": "BridgeDb App for Cytoscape 3",
+      "url": "https://github.com/AlexanderPico/bridgedb-app",
+      "githubRepo": "AlexanderPico/bridgedb-app",
+      "language": "Java",
+      "languages": [
+        "Java"
+      ],
+      "stars": 2,
+      "forks": 7,
+      "openIssues": 8,
+      "releaseDate": "2013-07-18",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.436Z"
+    },
+    {
+      "name": "shinyscape",
+      "description": "R Shiny UI for Cytoscape",
+      "url": "https://github.com/AlexanderPico/shinyscape",
+      "githubRepo": "AlexanderPico/shinyscape",
+      "language": "R",
+      "languages": [
+        "R"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2022-11-24",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.266Z"
+    },
+    {
+      "name": "SARS-CoV-2_Alignments",
+      "description": "Sequence alignments of SARS-CoV-2 proteins and previously studied proteins",
+      "url": "https://github.com/AlexanderPico/SARS-CoV-2_Alignments",
+      "githubRepo": "AlexanderPico/SARS-CoV-2_Alignments",
+      "language": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2020-03-30",
+      "topics": [],
+      "license": "CC0-1.0",
+      "fetchedAt": "2026-03-21T15:13:45.434Z"
+    },
+    {
+      "name": "cvkit",
+      "description": "Academic CV management CLI — fetch from ORCID, GitHub, Semantic Scholar; output canonical cv.json",
+      "url": "https://github.com/AlexanderPico/cvkit",
+      "githubRepo": "AlexanderPico/cvkit",
+      "language": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2026-03-21",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:44.966Z"
+    },
+    {
+      "name": "linkedin-profile-reader",
+      "description": "Parse LinkedIn Profile.PDFs into JSON Resume format",
+      "url": "https://github.com/AlexanderPico/linkedin-profile-reader",
+      "githubRepo": "AlexanderPico/linkedin-profile-reader",
+      "language": "TypeScript",
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Shell"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2025-06-21",
+      "topics": [],
+      "license": "MIT",
+      "fetchedAt": "2026-03-21T15:13:45.040Z"
+    },
+    {
+      "name": "resume-reader",
+      "description": "Parses any PDF of a resumé or CV into structured JSON for downstream presentation, analysis, and comparison",
+      "url": "https://github.com/AlexanderPico/resume-reader",
+      "githubRepo": "AlexanderPico/resume-reader",
+      "language": "Python",
+      "languages": [
+        "Python",
+        "C",
+        "PowerShell",
+        "Shell"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2025-06-20",
+      "topics": [],
+      "license": "MIT",
+      "fetchedAt": "2026-03-21T15:13:45.229Z"
+    },
+    {
+      "name": "icv",
+      "description": "Interactive curriculum vitae, or resumé",
+      "url": "https://github.com/AlexanderPico/icv",
+      "githubRepo": "AlexanderPico/icv",
+      "language": "Astro",
+      "languages": [
+        "Astro",
+        "JavaScript"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2025-06-18",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.262Z"
+    },
+    {
+      "name": "vibes-board",
+      "description": "Pithy AI-generated quotes based on selected mood tiles",
+      "url": "https://github.com/AlexanderPico/vibes-board",
+      "githubRepo": "AlexanderPico/vibes-board",
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 1,
+      "releaseDate": "2025-05-08",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.035Z"
+    },
+    {
+      "name": "material-planner",
+      "description": "An \"object\" oriented custom planner",
+      "url": "https://github.com/AlexanderPico/material-planner",
+      "githubRepo": "AlexanderPico/material-planner",
+      "language": "JavaScript",
+      "languages": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2025-05-07",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.272Z"
+    },
+    {
+      "name": "pfocr-files",
+      "url": "https://github.com/AlexanderPico/pfocr-files",
+      "githubRepo": "AlexanderPico/pfocr-files",
+      "languages": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2023-12-14",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.252Z"
+    },
+    {
+      "name": "pmcfigurebot",
+      "description": "Query figures indexed by PubMed Central and collect metadata",
+      "url": "https://github.com/AlexanderPico/pmcfigurebot",
+      "githubRepo": "AlexanderPico/pmcfigurebot",
+      "language": "R",
+      "languages": [
+        "R"
+      ],
+      "stars": 0,
+      "forks": 4,
+      "openIssues": 1,
+      "releaseDate": "2022-12-19",
+      "topics": [],
+      "license": "CC0-1.0",
+      "fetchedAt": "2026-03-21T15:13:45.033Z"
+    },
+    {
+      "name": "retrondb-notebooks",
+      "description": "Python notebooks for retrondb transactions",
+      "url": "https://github.com/AlexanderPico/retrondb-notebooks",
+      "githubRepo": "AlexanderPico/retrondb-notebooks",
+      "languages": [
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2022-08-11",
+      "topics": [],
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-03-21T15:13:45.263Z"
+    },
+    {
+      "name": "C3-Boot-Camp",
+      "description": "Website to organize information and announcements for the UCSF Computational Cancer Community (C3) Boot Camp",
+      "url": "https://github.com/AlexanderPico/C3-Boot-Camp",
+      "githubRepo": "AlexanderPico/C3-Boot-Camp",
+      "language": "HTML",
+      "languages": [
+        "HTML",
+        "SCSS",
+        "Liquid",
+        "Ruby"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2022-05-06",
+      "topics": [],
+      "license": "MIT",
+      "fetchedAt": "2026-03-21T15:13:45.425Z"
+    },
+    {
+      "name": "shiny-publications",
+      "description": "RShiny app to browse a set of papers",
+      "url": "https://github.com/AlexanderPico/shiny-publications",
+      "githubRepo": "AlexanderPico/shiny-publications",
+      "language": "R",
+      "languages": [
+        "R"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2022-01-08",
+      "topics": [],
+      "license": "Apache-2.0",
+      "fetchedAt": "2026-03-21T15:13:45.414Z"
+    },
+    {
+      "name": "wp-curation-report",
+      "url": "https://github.com/AlexanderPico/wp-curation-report",
+      "githubRepo": "AlexanderPico/wp-curation-report",
+      "language": "Java",
+      "languages": [
+        "Java",
+        "Makefile",
+        "Shell"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2021-09-29",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.439Z"
+    },
+    {
+      "name": "tidySmartphoneData",
+      "description": "process for making tidy subset of Samsung Smartphone Dataset",
+      "url": "https://github.com/AlexanderPico/tidySmartphoneData",
+      "githubRepo": "AlexanderPico/tidySmartphoneData",
+      "language": "R",
+      "languages": [
+        "R"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2015-09-21",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.425Z"
+    },
+    {
+      "name": "datasciencecoursera",
+      "url": "https://github.com/AlexanderPico/datasciencecoursera",
+      "githubRepo": "AlexanderPico/datasciencecoursera",
+      "language": "HTML",
+      "languages": [
+        "HTML",
+        "R"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2015-07-12",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.423Z"
+    },
+    {
+      "name": "gladstonePublications",
+      "url": "https://github.com/AlexanderPico/gladstonePublications",
+      "githubRepo": "AlexanderPico/gladstonePublications",
+      "language": "PHP",
+      "languages": [
+        "PHP",
+        "Python"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "releaseDate": "2013-11-05",
+      "topics": [],
+      "fetchedAt": "2026-03-21T15:13:45.443Z"
+    }
+  ],
+  "fetchMeta": {
+    "github": "2026-03-21T15:13:43.775Z",
+    "semanticScholar": "2026-03-21T15:14:40.606Z"
+  },
+  "citationMetrics": {
+    "hIndex": 3,
+    "totalCitations": 349,
+    "publicationCount": 7,
+    "s2AuthorId": "2148817073",
+    "fetchedAt": "2026-03-21T15:14:40.606Z",
+    "i10Index": 2
+  }
+}
