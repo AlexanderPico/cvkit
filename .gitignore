@@ -7,3 +7,7 @@ dist/
 .env.local
 *.log
 coverage/
+
+# Local agent orientation files
+AGENTS_README.local.md
+AGENT_README.local.md
