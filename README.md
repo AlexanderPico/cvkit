@@ -186,6 +186,8 @@ pnpm lint:fix         # auto-fix lint issues
 pnpm typecheck        # TypeScript project references check
 ```
 
+GitHub Actions CI runs `pnpm install --frozen-lockfile`, `pnpm test`, and `pnpm build` on pushes and pull requests to `main`.
+
 ### Adding a changeset
 
 ```bash
