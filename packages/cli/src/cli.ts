@@ -96,6 +96,7 @@ program
     const dir = program.opts<{ dir: string }>().dir;
     const store = createStore(dir);
     let cv = await store.load();
+    let hadFailures = false;
 
     // Determine which sources to run
     const runs: Array<() => Promise<void>> = [];
@@ -111,6 +112,7 @@ program
           cv = await store.merge(resp.data);
           console.log(`✓ (${resp.data.publications?.length ?? 0} publications, ${resp.data.work?.length ?? 0} positions)`);
         } else {
+          hadFailures = true;
           console.error(`✗ ${resp.error}`);
         }
       });
@@ -123,18 +125,15 @@ program
         const ingester = new SemanticScholarIngester(s2Key ? { apiKey: s2Key } : {});
         if (opts.s2Author) {
           process.stdout.write(`→ Fetching Semantic Scholar author ${opts.s2Author}... `);
-          const resp = await ingester.ingestByAuthorId(opts.s2Author);
-          handleS2Response(resp, cv, store);
+          hadFailures = !(await handleS2Response(await ingester.ingestByAuthorId(opts.s2Author), cv, store)) || hadFailures;
           cv = await store.load();
         } else if (opts.s2Orcid) {
           process.stdout.write(`→ Fetching Semantic Scholar by ORCID ${opts.s2Orcid}... `);
-          const resp = await ingester.ingestByOrcid(opts.s2Orcid);
-          await handleS2Response(resp, cv, store);
+          hadFailures = !(await handleS2Response(await ingester.ingestByOrcid(opts.s2Orcid), cv, store)) || hadFailures;
           cv = await store.load();
         } else if (opts.s2Name) {
           process.stdout.write(`→ Fetching Semantic Scholar for "${opts.s2Name}"... `);
-          const resp = await ingester.ingestByName(opts.s2Name);
-          await handleS2Response(resp, cv, store);
+          hadFailures = !(await handleS2Response(await ingester.ingestByName(opts.s2Name), cv, store)) || hadFailures;
           cv = await store.load();
         }
       });
@@ -152,6 +151,7 @@ program
           cv = await store.merge(resp.data);
           console.log(`✓ (${resp.data.software?.length ?? 0} repos)`);
         } else {
+          hadFailures = true;
           console.error(`✗ ${resp.error}`);
         }
       });
@@ -168,6 +168,7 @@ program
           cv = await store.merge(resp.data);
           console.log(`✓ (${resp.data.work?.length ?? 0} positions, ${resp.data.education?.length ?? 0} education)`);
         } else {
+          hadFailures = true;
           console.error(`✗ ${resp.error}`);
         }
       });
@@ -181,6 +182,11 @@ program
 
     for (const run of runs) {
       await run();
+    }
+
+    if (hadFailures) {
+      console.error(`\nFetch completed with errors. Check messages above. cv.json may be partially updated at ${store.cvPath}`);
+      process.exit(1);
     }
 
     console.log(`\nDone. cv.json written to ${store.cvPath}`);
@@ -321,14 +327,16 @@ async function handleS2Response(
   resp: Awaited<ReturnType<SemanticScholarIngester["ingestByAuthorId"]>>,
   _cv: CVData,
   store: CVStore,
-): Promise<void> {
+): Promise<boolean> {
   if (resp.ok && resp.data) {
     await store.merge(resp.data);
     const m = resp.data.citationMetrics;
     console.log(`✓ (h-index: ${m?.hIndex ?? "?"}, ${resp.data.publications?.length ?? 0} papers)`);
-  } else {
-    console.error(`✗ ${resp.error}`);
+    return true;
   }
+
+  console.error(`✗ ${resp.error}`);
+  return false;
 }
 
 /** Extract GitHub username from cv.json basics.profiles */

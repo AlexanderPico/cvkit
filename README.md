@@ -78,6 +78,7 @@ cvkit init --overwrite   # replace existing file
 ### `cvkit fetch`
 
 Pull data from one or more sources and merge into `cv.json`.
+If any selected source fails, `cvkit fetch` exits non-zero after finishing the requested runs so shell scripts and CI can detect partial-ingestion problems.
 
 ```
 Options:
